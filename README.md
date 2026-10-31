@@ -1,50 +1,45 @@
-# Awesome-Collaborative-Code-Review-Software
+<p align="center">
+  <img src="./assets/banner.svg" alt="Awesome Collaborative Code Review Software Banner" width="100%" />
+</p>
 
-# Awesome-Collaborative-Code-Review-Software
+# Awesome Collaborative Code Review Software 🚀
 
-**Top Collaborative Code Review Software (Opensource) 🌟 Star if you like it! 🌟**
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Code-Review-Software/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Collaborative-Code-Review-Software?style=social&color=white" alt="Repo Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Code-Review-Software/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Collaborative-Code-Review-Software?style=social&color=white" alt="Repo Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Collaborative-Code-Review-Software/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg?style=flat-square" alt="License: MIT" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+> 🌟 **A curated list of battle-tested SaaS platforms, self-hosted open-source code review engines, and AI-assisted pull request review tools.** Focuses on pre-commit review, git diff inspection, inline comments, approval gates, and multi-VCS workflows.
 
+---
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**
+## 📑 Table of Contents
 
-*Focused on Pull Request Workflows, Pre-Commit Review, Inline Comments & Self-Hosted Review Platforms*
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS & Hosted Platforms](#-saas--hosted-platforms)
+- [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
+- [📈 Star History](#star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#️-disclaimer)
 
-**Last updated: November 2026**
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The global collaborative code review, pull request management, and automated code inspection software market is valued at approximately **$1.1 billion to $4.2 billion** (scaling past $17 billion when evaluating the broader enterprise DevOps and DevSecOps platform lifecycle). 
 
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Collaborative Code Review Software**. These tools enable teams to review code changes before merge, discuss diffs inline, enforce approval workflows, and integrate review into their version control system—from fully managed platforms with AI-assisted review to self-hosted review engines that give organizations complete control over their code review process.
+The market dynamics exhibit **high concentration** around dominant code hosting ecosystems like Microsoft GitHub and GitLab—creating a near "winner-take-most" reality for standard pull request workflows. Concurrently, specialized independent tools (such as SmartBear Collaborator, Reviewable) and emerging LLM-powered review engines maintain strong niches across regulated industries, multi-VCS enterprises (Git, SVN, Mercurial, Perforce), and automated CI/CD linting infrastructure.
 
+---
 
+## 🏢 SaaS & Hosted Platforms
 
-**Examples** include GitHub Pull Requests, GitLab Merge Requests, Crucible, Gerrit, Review Board, Phabricator, Collaborator, RhodeCode, Reviewable, and Upsource (the category leaders in commercial and open-source space).
-
-
-
-**Open-source emphasis**: This section is expanded with every relevant project for self-hosted code review, pre-commit workflows, and open review infrastructure. **Critical note**: The open-source code review landscape is mature but fragmented—**Gerrit** remains the gold standard for Git-based pre-commit review with two-way voting and CI integration , **Review Board** is the most flexible multi-SCM option but has performance limitations , and **RhodeCode** uniquely supports Git, Mercurial, and SVN in one platform with enterprise-grade permissions . **Phabricator is no longer maintained as of June 2021**—do not start new projects on it . No open-source project matches GitHub/GitLab's native PR experience, but for self-hosted control, Gerrit and RhodeCode are production-proven.
-
-
-
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saas-hosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The global collaborative code review and static code analysis software sector is estimated at **$1.1 billion to $4.2 billion** (scaling past $17 billion when evaluating the broader DevOps and DevSecOps platform lifecycle). The market is **highly concentrated** around major integrated code-hosting monopolies like Microsoft GitHub and GitLab—creating a near "winner-take-most" dynamic—while dedicated review engines (e.g., SmartBear Collaborator, Reviewable) and emerging AI-first review players compete in specialized high-compliance and automated workflow niches.
-
-## SaaS/Hosted Platforms
-
-| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Description & Best For |
+| 💻 Product | 🏢 Company Valuation / Scale | 💳 Pricing (Starting Tier) | 🎁 Free Tier / Free Trial Limits | 📝 Description & Best Use Case |
 | :--- | :--- | :--- | :--- | :--- |
 | **[GitHub Pull Requests](https://github.com/features/code-review)** | Parent: Microsoft ($3.1T+ Market Cap / ~$245B+ Rev); GitHub ARR ~$2B+ | **$4/user/month** (Team tier, billed monthly or $44/yr) | **Free forever plan**: Unlimited public/private repos, 2,000 CI/CD Actions minutes/month, and 500MB Packages storage for individuals and teams. | Native code review integrated directly with GitHub with inline suggestions, branch protection rules, draft PRs, and team review assignments. |
 | **[Crucible](https://www.atlassian.com/software/crucible)** | Atlassian: ~$53.3B Market Cap / $5.22B FY25 Revenue | **$10 one-time starter license** for 5 users (Enterprise licenses quote-based; new sales discontinued May 2025, supported until May 2028) | **30-day free trial** with full enterprise functionality across Git, SVN, and Perforce; no permanent free tier. | Enterprise code review software supporting multi-SCM setups with deep bi-directional Jira issue linking and audit traceability. |
@@ -53,96 +48,83 @@ The global collaborative code review and static code analysis software sector is
 | **[Upsource](https://www.jetbrains.com/upsource/)** | JetBrains: ~$3B–$7B Est. Valuation / ~$715M 2025 Revenue | **$1,429 first-year pack** for 25 users (product sales discontinued Feb 2022; historical pricing reference) | **Free forever tier was up to 10 users** before sunset; legacy product maintained for existing self-hosted customers only. | Standalone code review and repository exploration tool deeply integrated with JetBrains IDE inspections and navigation. |
 | **[Reviewable](https://reviewable.io/)** | Independently Bootstrapped ($0 outside VC / Profitable solo enterprise) | **$8/contributor/month** (Team plan, billed annually at $88/yr, or $9/month) | **Free forever plan**: Free for all public repositories and all repositories hosted under personal GitHub user accounts (10MB file upload limit). | Advanced, GitHub-exclusive code review interface featuring continuous multi-round review states, diff tracking, and customizable review completion logic. |
 
-## Open-Source GitHub Projects
+---
 
+## ⭐ Open-Source GitHub Projects
 
+The open-source code review ecosystem spans full-featured self-hosted platforms, distributed review systems, automated CI bot linters, and scalable LLM code reviewers. Projects below are sorted descending by GitHub star count:
 
-- **[Gerrit](https://github.com/GerritCodeReview/gerrit)**
+1. **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) 🍵  
+   **Painless, lightweight self-hosted Git service with integrated code review** (MIT License). Features complete pull request workflows, inline code commenting, review approval rules, branch protection, and integrated CI/CD runners. Written in Go, it runs anywhere with near-zero resource consumption.
 
-  **Web-based code review tool for Git** (Apache 2.0) — **the gold standard for pre-commit code review**, used by Android, Chromium, and large-scale open-source projects . **Features**: **Review created by pushing to a special branch** (`refs/for/master`) ; **two-way voting**—verified (CI/Jenkins) and code review ; **comprehensive access control** protecting the repository ; **tick-box per-file review tracking** ; **Jenkins integration** for patch verification . **Tech stack**: Java (.war) . **Deploy**: Self-hosted (Java servlet container). **Trade-off**: **Git-only**—no SVN or Mercurial . **UI is functional but dated**—shows one file at a time, not a rich diff view . **Best for**: Git-centric teams wanting rigorous pre-commit review with CI-gated approvals—especially open-source projects with external contributors where access control and verification matter.
+2. **[Alibaba Open Code Review](https://github.com/alibaba/open-code-review)** [![GitHub stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=social&color=white)](https://github.com/alibaba/open-code-review/stargazers) 🤖  
+   **Enterprise-grade AI code review tool battle-tested at Alibaba scale** (Apache 2.0). Combines deterministic static analysis pipelines with LLM agents to deliver precise line-level review comments, catching NPEs, thread-safety bugs, XSS, and SQL injection flaws across OpenAI and Anthropic compatible APIs.
 
+3. **[Phabricator](https://github.com/phacility/phabricator)** [![GitHub stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers) 🏛️  
+   **Comprehensive software development and pre-commit review platform (Differential)** (Apache 2.0). Historically used by Facebook, Uber, and Dropbox. *Note: Phacility officially discontinued maintenance on June 1, 2021; retained for historical architectural reference and existing installations.*
 
+4. **[Reviewdog](https://github.com/reviewdog/reviewdog)** [![GitHub stars](https://img.shields.io/github/stars/reviewdog/reviewdog?style=social&color=white)](https://github.com/reviewdog/reviewdog/stargazers) 🐶  
+   **Automated code review bot integrated with any linter or static analysis tool** (MIT License). Seamlessly posts diff-aware review comments directly to GitHub Pull Requests, GitLab Merge Requests, and Gerrit without needing custom review servers.
 
-- **[Review Board](https://github.com/reviewboard/reviewboard)**
+5. **[Danger](https://github.com/danger/danger)** [![GitHub stars](https://img.shields.io/github/stars/danger/danger?style=social&color=white)](https://github.com/danger/danger/stargazers) ⚠️  
+   **Formalize and automate team code review culture in CI** (MIT License). Lets teams write programmatic rules in Ruby (or JS/TS via `danger-js`) to enforce PR changelogs, test coverage presence, metadata tags, and inline review feedback during pull requests.
 
-  **Web-based collaborative code review tool** (MIT) — **the most flexible open-source review platform**, supporting any modern SCM . **Features**: **Pre-commit and post-commit reviews** created via Python script (`rbt post`) ; **supports Git, SVN, Mercurial, Perforce, and more**; **nice UI** with diff viewing . **Tech stack**: Python . **Deploy**: Self-hosted (Apache/lighttpd) . **Trade-off**: **No repository access control**—it does not manage the repository, only the review . **UI is slow loading diffs**—Gerrit and Phabricator are much faster . **Best for**: teams with heterogeneous version control (SVN + Git + Mercurial) needing a single review interface—willing to accept slower diff loading and external repository management.
+6. **[Git-Appraise](https://github.com/google/git-appraise)** [![GitHub stars](https://img.shields.io/github/stars/google/git-appraise?style=social&color=white)](https://github.com/google/git-appraise/stargazers) 🌐  
+   **Distributed code review system for Git repositories by Google** (Apache 2.0). Stores review metadata and inline comments directly as Git notes within the repository itself, enabling decentralized offline review without tying teams to a specific central hosting vendor.
 
+7. **[ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview)** [![GitHub stars](https://img.shields.io/github/stars/anc95/ChatGPT-CodeReview?style=social&color=white)](https://github.com/anc95/ChatGPT-CodeReview/stargazers) 🐥  
+   **Automated PR review bot powered by OpenAI ChatGPT and GitHub Actions** (MIT License). Automatically analyzes pull request diffs, provides summaries, flags code smells, and writes constructive code review suggestions directly in PR threads.
 
+8. **[Pronto](https://github.com/prontolabs/pronto)** [![GitHub stars](https://img.shields.io/github/stars/prontolabs/pronto?style=social&color=white)](https://github.com/prontolabs/pronto/stargazers) ⚡  
+   **Quick automated code review tool for git diffs** (MIT License). Runs static analysis linters (RuboCop, Flake8, ESLint, Brakeman) exclusively on modified lines in commits and pull requests, posting comments right where issues occur.
 
-- **[RhodeCode](https://github.com/rhodecode/rhodecode)**
+9. **[Review Board](https://github.com/reviewboard/reviewboard)** [![GitHub stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers) 📋  
+   **Web-based collaborative peer review platform** (MIT License). Excellent support for multi-SCM setups including Git, Subversion, Mercurial, and Perforce with clean side-by-side graphical diffing and review tracking via `rbt post`.
 
-  **Unified source code management and code review platform** (AGPLv3 Community Edition) — **the only open-source platform supporting Git, Mercurial, and SVN with unified code review** . **Features**: **Inline comments** for instant feedback; **smart commits** to trigger approvals and merges; **custom review workflows**; **reviewer rules** assign the right owners; **event hooks and webhooks** on every action; **full REST API**; **granular permissions** at team, individual, or repository level; **immutable audit log** with 7-year retention and SIEM stream; **LDAP, AD, SAML 2.0, CAS, OAuth, 2FA** authentication; **on-premises, private cloud, or air-gapped** deployment . **Community Edition is free with unlimited users** . **Enterprise Edition** adds SLA support, enterprise auth, and high availability at **$75/user/year** . **Tech stack**: Python. **Deploy**: Self-hosted (Linux). **Trade-off**: **UI can feel outdated** per reviewer feedback . **Mercurial/SVN support is unique but niche**—if you only use Git, Gerrit or GitHub/GitLab are more focused. **Best for**: enterprises with mixed version control (especially Mercurial or SVN alongside Git) needing unified review, granular permissions, and audit trails—especially regulated industries and government labs that cannot use SaaS .
+10. **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![GitHub stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers) 🛡️  
+    **The gold standard for pre-commit Git code review** (Apache 2.0). Powers massive collaborative ecosystems like Android, Chromium, and Eclipse. Features two-way voting verification (CI + Code Review), per-file review completion checklists, and fine-grained ACL permissions.
 
-
-
-- **[Phabricator](https://github.com/phacility/phabricator)**
-
-  **Suite of open-source tools for code review, project management, and repository hosting** (Apache 2.0) — **historically influential but no longer maintained as of June 1, 2021** . **Features**: Pre-commit review via `arc` CLI; post-commit audits triggered by rules; complete ecosystem including bug tracker, repo browser, and wiki; supports Git, SVN, and Mercurial; used by Facebook and Dropbox historically . **Tech stack**: PHP . **Deploy**: Self-hosted. **Trade-off**: **Unmaintained**—no security patches, no bug fixes, no new features since 2021 . **Do not start new projects on Phabricator.** **Best for**: historical reference only—existing installations should evaluate Gerrit or RhodeCode for migration.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **Mira - Code Review** — Self-hosted AI code review platform (Apache 2.0). Indexed PR analysis, vulnerability scanning, custom rule configuration, Docker deployment, multi-LLM support . **Note**: AI-assisted review, not traditional peer review workflow. **Best for**: teams wanting AI-generated review comments alongside human review.
-
-- **Gito** — Open-source AI code reviewer for GitHub/GitLab (license per repo). Runs locally or in CI/CD; works with any LLM including self-hosted models (Ollama, LM Studio, vLLM) . **Note**: AI review only—not a review workflow platform. **Best for**: teams wanting private AI-assisted review with local models.
-
-- **Reviewdog** — Automated code review tool that posts review comments from any linter output (MIT) . **Note**: Linter integration, not peer review. **Best for**: automating static analysis feedback into PRs.
-
-
-
-**Frameworks for building custom systems**: Combine **Gerrit** for Git-based pre-commit review with **Review Board** for SVN/Mercurial repositories, and **RhodeCode** for unified multi-VCS management with audit trails—creating a code review stack matched to each team's version control and compliance requirements. **Phabricator is excluded from composition**—it is unmaintained and insecure for new deployments.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, license (for open-source), and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Code review platforms handling proprietary source code must comply with data protection regulations (GDPR, CCPA, etc.) and implement appropriate access controls for intellectual property.
-
-- **The "native VCS review" vs. "dedicated review tool" vs. "AI-assisted review" vs. "unmaintained" distinction is critical.** **GitHub Pull Requests and GitLab Merge Requests** are **native VCS review**—review is integrated into the repository host. **Crucible, Reviewable, Collaborator, Gerrit, Review Board, and RhodeCode** are **dedicated review tools**—they provide deeper review workflows than native VCS features . **Mira, Gito, and Reviewdog** are **AI-assisted or automated review**—they generate comments, not peer review workflows. **Phabricator is unmaintained**—do not adopt . **Choose based on whether you need integrated simplicity, dedicated depth, AI assistance, or multi-VCS support.**
-
-- **Gerrit is the choice for rigorous Git review.** Two-way voting (verified + code review), per-file tick tracking, and CI integration make it the standard for projects like Android . **The trade-off**: Git-only, dated UI, and a learning curve for `refs/for/` workflow.
-
-- **Review Board is the choice for multi-SCM environments**—it supports any modern SCM via Python script . **The trade-off**: no repository access control, slow diff loading .
-
-- **RhodeCode is the only open-source option for unified Git + Mercurial + SVN review** with enterprise permissions and audit trails . **The Community Edition is free with unlimited users**—Enterprise adds SLA support at $75/user/year. **For regulated industries needing on-premises review with audit logs, it is the strongest option.**
-
-- **Phabricator is dead.** Effective June 1, 2021, it is no longer actively maintained . **Do not deploy it for new projects**—security vulnerabilities will not be patched. **Existing users should migrate to Gerrit (Git-only) or RhodeCode (multi-VCS).**
-
-- **Crucible and Collaborator are the commercial dedicated review tools** for teams not wanting self-hosted. Crucible integrates with Jira; Collaborator supports multiple VCS with formal workflows . **Pricing opacity is universal**—both require sales contact.
-
-- Self-hosted open-source solutions require proper infrastructure (Java for Gerrit, Python for Review Board/RhodeCode), security hardening for repository access, and ongoing maintenance. **Code review platforms handle proprietary source code**—ensure your deployment meets your organization's security and IP protection requirements before connecting production repositories.
-
-
+11. **[RhodeCode CE](https://github.com/rhodecode/rhodecode-enterprise-ce)** [![GitHub stars](https://img.shields.io/github/stars/rhodecode/rhodecode-enterprise-ce?style=social&color=white)](https://github.com/rhodecode/rhodecode-enterprise-ce/stargazers) 🔒  
+    **Unified source code management and code review for Git, Mercurial, and SVN** (AGPLv3 Community Edition). Built for enterprise security with smart commit approvals, fine-grained IP permissions, SIEM audit streams, and air-gapped on-premises deployment.
 
 ---
 
+## 📈 Star History
 
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Collaborative-Code-Review-Software&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Collaborative-Code-Review-Software&type=date&legend=top-left)
 
-**Made for developers, engineering leads, and organizations building transparent code review solutions.**
+---
 
-Let's make Collaborative Code Review more open, data-driven, and review-workflow-friendly.
+## 🤝 How to Contribute
+
+Contributions are welcome and highly appreciated! 🎉
+
+1. 🍴 **Fork** this repository.
+2. 🌿 Create a feature branch: `git checkout -b add-review-tool`.
+3. 📝 Add or edit your tool in `README.md` keeping descriptions factual, concise, and linked to official repositories or sites.
+4. 📬 Submit a **Pull Request** with a brief overview of why the tool belongs on this list.
+
+---
+
+## 💖 Support & Sponsorship
+
+Thank you so much for visiting this repository! If you find this curated collection useful for choosing or building your team's code review workflow:
+
+- ⭐ **Star** this repository to help other developers and architects find it.
+- 🍴 **Fork** and share it with your engineering team or community.
+- ☕ Consider buying a coffee or supporting ongoing open-source curation via the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Your support keeps this resource actively maintained, benchmarked, and up to date!
+
+---
+
+## ⚠️ Disclaimer
+
+- This is an open **community-curated collection**—inclusion does not constitute an official endorsement.
+- Code review platforms process proprietary source code. Ensure any self-hosted or SaaS deployment satisfies your organization's IP boundaries, data residency, and GDPR/SOC2 compliance regulations.
+- **Architectural Selection Guide**:
+  - For **Native VCS Review**: GitHub Pull Requests and GitLab Merge Requests provide the most friction-free native flow.
+  - For **Rigorous Pre-Commit Git Verification**: Gerrit remains unmatched for branch gating and CI patch testing.
+  - For **Heterogeneous VCS (SVN + Mercurial + Git)**: RhodeCode and Review Board are the proven engines.
+  - For **Automated Static Analysis & Linter Bots**: Reviewdog, Danger, and Pronto provide seamless pull request bots.
+  - For **Self-Hosted AI Code Reviews**: Alibaba Open Code Review and ChatGPT-CodeReview automate routine checks before human review.
