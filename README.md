@@ -52,39 +52,39 @@ The market dynamics exhibit **high concentration** around dominant code hosting 
 
 ## ⭐ Open-Source GitHub Projects
 
-The open-source code review ecosystem spans full-featured self-hosted platforms, distributed review systems, automated CI bot linters, and scalable LLM code reviewers. Projects below are sorted descending by GitHub star count:
+The open-source code review ecosystem spans full-featured self-hosted platforms, distributed review systems, automated CI bot linters, and scalable LLM code reviewers. Projects below are sorted descending by GitHub Stars_Count:
 
-1. **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) 🍵  
+1. **[Gitea](https://github.com/go-gitea/gitea)** [![GitHub_Stars](https://img.shields.io/github/stars/go-gitea/gitea?style=social&color=white)](https://github.com/go-gitea/gitea/stargazers) 🍵  
    **Painless, lightweight self-hosted Git service with integrated code review** (MIT License). Features complete pull request workflows, inline code commenting, review approval rules, branch protection, and integrated CI/CD runners. Written in Go, it runs anywhere with near-zero resource consumption.
 
-2. **[Alibaba Open Code Review](https://github.com/alibaba/open-code-review)** [![GitHub stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=social&color=white)](https://github.com/alibaba/open-code-review/stargazers) 🤖  
+2. **[Alibaba Open Code Review](https://github.com/alibaba/open-code-review)** [![GitHub_Stars](https://img.shields.io/github/stars/alibaba/open-code-review?style=social&color=white)](https://github.com/alibaba/open-code-review/stargazers) 🤖  
    **Enterprise-grade AI code review tool battle-tested at Alibaba scale** (Apache 2.0). Combines deterministic static analysis pipelines with LLM agents to deliver precise line-level review comments, catching NPEs, thread-safety bugs, XSS, and SQL injection flaws across OpenAI and Anthropic compatible APIs.
 
-3. **[Phabricator](https://github.com/phacility/phabricator)** [![GitHub stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers) 🏛️  
+3. **[Phabricator](https://github.com/phacility/phabricator)** [![GitHub_Stars](https://img.shields.io/github/stars/phacility/phabricator?style=social&color=white)](https://github.com/phacility/phabricator/stargazers) 🏛️  
    **Comprehensive software development and pre-commit review platform (Differential)** (Apache 2.0). Historically used by Facebook, Uber, and Dropbox. *Note: Phacility officially discontinued maintenance on June 1, 2021; retained for historical architectural reference and existing installations.*
 
-4. **[Reviewdog](https://github.com/reviewdog/reviewdog)** [![GitHub stars](https://img.shields.io/github/stars/reviewdog/reviewdog?style=social&color=white)](https://github.com/reviewdog/reviewdog/stargazers) 🐶  
+4. **[Reviewdog](https://github.com/reviewdog/reviewdog)** [![GitHub_Stars](https://img.shields.io/github/stars/reviewdog/reviewdog?style=social&color=white)](https://github.com/reviewdog/reviewdog/stargazers) 🐶  
    **Automated code review bot integrated with any linter or static analysis tool** (MIT License). Seamlessly posts diff-aware review comments directly to GitHub Pull Requests, GitLab Merge Requests, and Gerrit without needing custom review servers.
 
-5. **[Danger](https://github.com/danger/danger)** [![GitHub stars](https://img.shields.io/github/stars/danger/danger?style=social&color=white)](https://github.com/danger/danger/stargazers) ⚠️  
+5. **[Danger](https://github.com/danger/danger)** [![GitHub_Stars](https://img.shields.io/github/stars/danger/danger?style=social&color=white)](https://github.com/danger/danger/stargazers) ⚠️  
    **Formalize and automate team code review culture in CI** (MIT License). Lets teams write programmatic rules in Ruby (or JS/TS via `danger-js`) to enforce PR changelogs, test coverage presence, metadata tags, and inline review feedback during pull requests.
 
-6. **[Git-Appraise](https://github.com/google/git-appraise)** [![GitHub stars](https://img.shields.io/github/stars/google/git-appraise?style=social&color=white)](https://github.com/google/git-appraise/stargazers) 🌐  
+6. **[Git-Appraise](https://github.com/google/git-appraise)** [![GitHub_Stars](https://img.shields.io/github/stars/google/git-appraise?style=social&color=white)](https://github.com/google/git-appraise/stargazers) 🌐  
    **Distributed code review system for Git repositories by Google** (Apache 2.0). Stores review metadata and inline comments directly as Git notes within the repository itself, enabling decentralized offline review without tying teams to a specific central hosting vendor.
 
-7. **[ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview)** [![GitHub stars](https://img.shields.io/github/stars/anc95/ChatGPT-CodeReview?style=social&color=white)](https://github.com/anc95/ChatGPT-CodeReview/stargazers) 🐥  
+7. **[ChatGPT-CodeReview](https://github.com/anc95/ChatGPT-CodeReview)** [![GitHub_Stars](https://img.shields.io/github/stars/anc95/ChatGPT-CodeReview?style=social&color=white)](https://github.com/anc95/ChatGPT-CodeReview/stargazers) 🐥  
    **Automated PR review bot powered by OpenAI ChatGPT and GitHub Actions** (MIT License). Automatically analyzes pull request diffs, provides summaries, flags code smells, and writes constructive code review suggestions directly in PR threads.
 
-8. **[Pronto](https://github.com/prontolabs/pronto)** [![GitHub stars](https://img.shields.io/github/stars/prontolabs/pronto?style=social&color=white)](https://github.com/prontolabs/pronto/stargazers) ⚡  
+8. **[Pronto](https://github.com/prontolabs/pronto)** [![GitHub_Stars](https://img.shields.io/github/stars/prontolabs/pronto?style=social&color=white)](https://github.com/prontolabs/pronto/stargazers) ⚡  
    **Quick automated code review tool for git diffs** (MIT License). Runs static analysis linters (RuboCop, Flake8, ESLint, Brakeman) exclusively on modified lines in commits and pull requests, posting comments right where issues occur.
 
-9. **[Review Board](https://github.com/reviewboard/reviewboard)** [![GitHub stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers) 📋  
+9. **[Review Board](https://github.com/reviewboard/reviewboard)** [![GitHub_Stars](https://img.shields.io/github/stars/reviewboard/reviewboard?style=social&color=white)](https://github.com/reviewboard/reviewboard/stargazers) 📋  
    **Web-based collaborative peer review platform** (MIT License). Excellent support for multi-SCM setups including Git, Subversion, Mercurial, and Perforce with clean side-by-side graphical diffing and review tracking via `rbt post`.
 
-10. **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![GitHub stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers) 🛡️  
+10. **[Gerrit Code Review](https://github.com/GerritCodeReview/gerrit)** [![GitHub_Stars](https://img.shields.io/github/stars/GerritCodeReview/gerrit?style=social&color=white)](https://github.com/GerritCodeReview/gerrit/stargazers) 🛡️  
     **The gold standard for pre-commit Git code review** (Apache 2.0). Powers massive collaborative ecosystems like Android, Chromium, and Eclipse. Features two-way voting verification (CI + Code Review), per-file review completion checklists, and fine-grained ACL permissions.
 
-11. **[RhodeCode CE](https://github.com/rhodecode/rhodecode-enterprise-ce)** [![GitHub stars](https://img.shields.io/github/stars/rhodecode/rhodecode-enterprise-ce?style=social&color=white)](https://github.com/rhodecode/rhodecode-enterprise-ce/stargazers) 🔒  
+11. **[RhodeCode CE](https://github.com/rhodecode/rhodecode-enterprise-ce)** [![GitHub_Stars](https://img.shields.io/github/stars/rhodecode/rhodecode-enterprise-ce?style=social&color=white)](https://github.com/rhodecode/rhodecode-enterprise-ce/stargazers) 🔒  
     **Unified source code management and code review for Git, Mercurial, and SVN** (AGPLv3 Community Edition). Built for enterprise security with smart commit approvals, fine-grained IP permissions, SIEM audit streams, and air-gapped on-premises deployment.
 
 ---
