@@ -32,55 +32,26 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saas-hosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The global collaborative code review and static code analysis software sector is estimated at **$1.1 billion to $4.2 billion** (scaling past $17 billion when evaluating the broader DevOps and DevSecOps platform lifecycle). The market is **highly concentrated** around major integrated code-hosting monopolies like Microsoft GitHub and GitLab—creating a near "winner-take-most" dynamic—while dedicated review engines (e.g., SmartBear Collaborator, Reviewable) and emerging AI-first review players compete in specialized high-compliance and automated workflow niches.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[GitHub Pull Requests](https://github.com/features/code-review)**
-
-  **Native code review integrated with GitHub** with inline comments, suggested changes, review assignments, and required approvals. **Pricing**: Free for public repos; included with GitHub paid plans for private. **Free tier**: Yes, with GitHub account. **Best for**: teams already hosting code on GitHub wanting the most seamless review experience—**trade-off**: vendor lock-in; advanced review features tied to paid tiers.
-
-
-
-- **[GitLab Merge Requests](https://about.gitlab.com/)**
-
-  **Integrated code review within GitLab** with approvals, threads, and CI integration. **Pricing**: Free tier; paid tiers scale with features. **Free tier**: Yes, limited. **Best for**: teams wanting a single tool for repo, CI, and review—**trade-off**: complex configuration at scale.
-
-
-
-- **[Crucible](https://www.atlassian.com/software/crucible)** (Atlassian)
-
-  **Enterprise code review tool** supporting Git, SVN, and Perforce repositories, with deep Jira integration for linking reviews to issues . **Pricing**: Quote-only; enterprise contracts. **Free tier**: None. **Best for**: Atlassian-centric organizations wanting formal peer review with Jira traceability—**trade-off**: separate product from Bitbucket; enterprise pricing.
-
-
-
-- **[Reviewable](https://reviewable.io/)**
-
-  **Code review platform fully integrated with GitHub** (and only GitHub). **Pricing**: Free for personal use; paid per user for teams. **Free tier**: Free personal. **Best for**: GitHub teams wanting a more powerful review interface than GitHub's native PRs—**trade-off**: GitHub-only; not for self-hosted.
-
-
-
-- **[Collaborator](https://smartbear.com/product/collaborator/overview/)** (SmartBear)
-
-  **Peer code review tool** for teams needing formal review workflows across SVN, Git, TFS, and Perforce. **Pricing**: Quote-only; starting around $12/month per user according to third-party listings . **Free tier**: None. **Best for**: regulated enterprises needing auditable peer review across heterogeneous version control.
-
-
-
-- **[Upsource](https://www.jetbrains.com/upsource/)** (JetBrains)
-
-  **Code review and repository browsing** integrated with JetBrains IDEs. **Note**: JetBrains discontinued Upsource; existing customers only. **Pricing**: N/A. **Free tier**: N/A. **Best for**: historical reference—**do not adopt for new projects**.
-
-
+| Product | Company Valuation / Revenue | Pricing (Starting Tier) | Free Tier / Free Trial Limits | Description & Best For |
+| :--- | :--- | :--- | :--- | :--- |
+| **[GitHub Pull Requests](https://github.com/features/code-review)** | Parent: Microsoft ($3.1T+ Market Cap / ~$245B+ Rev); GitHub ARR ~$2B+ | **$4/user/month** (Team tier, billed monthly or $44/yr) | **Free forever plan**: Unlimited public/private repos, 2,000 CI/CD Actions minutes/month, and 500MB Packages storage for individuals and teams. | Native code review integrated directly with GitHub with inline suggestions, branch protection rules, draft PRs, and team review assignments. |
+| **[Crucible](https://www.atlassian.com/software/crucible)** | Atlassian: ~$53.3B Market Cap / $5.22B FY25 Revenue | **$10 one-time starter license** for 5 users (Enterprise licenses quote-based; new sales discontinued May 2025, supported until May 2028) | **30-day free trial** with full enterprise functionality across Git, SVN, and Perforce; no permanent free tier. | Enterprise code review software supporting multi-SCM setups with deep bi-directional Jira issue linking and audit traceability. |
+| **[GitLab Merge Requests](https://about.gitlab.com/)** | GitLab Inc.: ~$6.3B–$9.6B Market Cap / $759M FY25 Revenue | **$29/user/month** (GitLab Premium, billed annually at $348/yr) | **Free forever plan**: Up to 5 users per namespace, 5GB storage, 10GB transfer/month, and 400 CI/CD compute minutes/month. | Integrated single-application DevOps code review with approval rules, inline threads, and integrated pipeline validation. |
+| **[Collaborator](https://smartbear.com/product/collaborator/overview/)** | SmartBear Software: ~$3B Private Valuation / ~$140M+ ARR | **$795/year** for 5-user pack (~$13.25/user/month) for Team Edition | **Free forever Community Edition** (limited to **10 fixed users**); or a **30-day free trial** for Enterprise Edition. | Formal peer code, document, and artifact review tool across SVN, Git, Perforce, and TFS with regulatory compliance reporting. |
+| **[Upsource](https://www.jetbrains.com/upsource/)** | JetBrains: ~$3B–$7B Est. Valuation / ~$715M 2025 Revenue | **$1,429 first-year pack** for 25 users (product sales discontinued Feb 2022; historical pricing reference) | **Free forever tier was up to 10 users** before sunset; legacy product maintained for existing self-hosted customers only. | Standalone code review and repository exploration tool deeply integrated with JetBrains IDE inspections and navigation. |
+| **[Reviewable](https://reviewable.io/)** | Independently Bootstrapped ($0 outside VC / Profitable solo enterprise) | **$8/contributor/month** (Team plan, billed annually at $88/yr, or $9/month) | **Free forever plan**: Free for all public repositories and all repositories hosted under personal GitHub user accounts (10MB file upload limit). | Advanced, GitHub-exclusive code review interface featuring continuous multi-round review states, diff tracking, and customizable review completion logic. |
 
 ## Open-Source GitHub Projects
 
